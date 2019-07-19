@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29118.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowSelectionLength", "src\ShowSelectionLength.csproj", "{48833570-3A2C-450D-8EEE-C348E09FA2E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEAD86FC-E8B8-4700-A316-5065A3BD443F}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48833570-3A2C-450D-8EEE-C348E09FA2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48833570-3A2C-450D-8EEE-C348E09FA2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48833570-3A2C-450D-8EEE-C348E09FA2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48833570-3A2C-450D-8EEE-C348E09FA2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C847AA0F-5FD8-4B53-A84A-D4C8770A4070}
+	EndGlobalSection
+EndGlobal
