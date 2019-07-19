@@ -9,7 +9,7 @@ or get the [CI build](http://vsixgallery.com/extension/c2ffcafd-dc47-4a4f-ba6b-0
 
 When selecting text in the Visual Studio editor, this extension shows the number of charcters in the selected range - including invisible characters such as `/r` and `/n`.
 
-screenshot coming...
+![Status bar](art/statusbar.png)
 
 ## License
 [Apache 2.0](LICENSE)
