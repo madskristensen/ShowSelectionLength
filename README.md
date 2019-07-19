@@ -1,9 +1,9 @@
 # Show Selection Length
 
-[![Build status](https://ci.appveyor.com/api/projects/status/c7w5c0kjva6jv0yu?svg=true)](https://ci.appveyor.com/project/madskristensen/htmltools2019)
+[![Build status](https://ci.appveyor.com/api/projects/status/5v7xuu075fctgagv?svg=true)](https://ci.appveyor.com/project/madskristensen/showselectionlength)
 
 Download this extension from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.HtmlTools)
-or get the [CI build](http://vsixgallery.com/extension/8682fae0-2ce9-49ea-93b5-edc92c118e2a/).
+or get the [CI build](http://vsixgallery.com/extension/c2ffcafd-dc47-4a4f-ba6b-07bcd6f2b0b6/).
 
 ---------------------------------------
 
