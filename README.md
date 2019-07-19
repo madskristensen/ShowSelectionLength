@@ -2,7 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/5v7xuu075fctgagv?svg=true)](https://ci.appveyor.com/project/madskristensen/showselectionlength)
 
-Download this extension from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.HtmlTools)
+Download this extension from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ShowSelectionLength)
 or get the [CI build](http://vsixgallery.com/extension/c2ffcafd-dc47-4a4f-ba6b-07bcd6f2b0b6/).
 
 ---------------------------------------
