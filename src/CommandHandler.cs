@@ -39,11 +39,19 @@ namespace ShowSelectionLength
 
                 var length = 0;
                 var linesCount = 0;
+                var lastLine = -1;
 
                 foreach (SnapshotSpan snapshotSpan in selection.SelectedSpans)
                 {
                     length += snapshotSpan.Length;
-                    linesCount += snapshotSpan.GetText().Count(c => c == '\n') + 1;
+                    var snapshot = snapshotSpan.Snapshot;
+                    var startLine = snapshot.GetLineNumberFromPosition(snapshotSpan.Start);
+                    var endLine = snapshot.GetLineNumberFromPosition(snapshotSpan.End);
+
+                    linesCount += endLine - startLine;
+                    // if previous selection was not on the same line as start of this selection add 1 else the line will be counted twice
+                    if (lastLine != startLine) linesCount++;
+                    lastLine = endLine;
                 }
 
                 if (length > 0)
