@@ -48,7 +48,7 @@ namespace ShowSelectionLength
 
                 if (length > 0)
                 {
-                    await VS.StatusBar.ShowMessageAsync($"Selection {length}C {linesCount}L");
+                    await VS.StatusBar.ShowMessageAsync($"Selection Ln: {linesCount} Ch: {length}");
                 }
 
             }).FireAndForget();
